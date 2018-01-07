@@ -6,4 +6,4 @@ const welcomeMessage =
 
 const excitedWelcomeMessage = welcomeMessage.toUpperCase()
 
-const shortGreeting =  `Welcome, ${currentUser[0]}!`
+const shortGreeting =  `Welcome, ${currentUser.slice(0, 1)}!`
